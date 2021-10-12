@@ -1207,6 +1207,10 @@ declare module "native-base" {
 			buttonTextStyle?: RnTextStyleProp;
 			buttonStyle?: RnViewStyleProp;
 			swipeDisabled?: boolean;
+			panOffset?: {
+				x?: number;
+				y?: number;
+			}
 		}): void;
 
 		/**
